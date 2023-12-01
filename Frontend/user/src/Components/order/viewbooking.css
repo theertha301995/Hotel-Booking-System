@@ -1,0 +1,72 @@
+.container12 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hotel-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  .hotel-card img {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .booking-summary {
+    margin-top: 20px;
+  }
+  
+  .booking-summary h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-summary li {
+    margin-bottom: 5px;
+  }
+  
+  .cancellation-policy {
+    margin-top: 20px;
+  }
+  
+  .cancellation-policy h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .button-3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .para
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

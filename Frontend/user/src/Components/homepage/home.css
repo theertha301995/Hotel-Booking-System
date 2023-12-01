@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+.container-fluid {
+    position: relative;
+   
+    height: 90vh;
+}
+
+img.d-block {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+     /* Example border radius, adjust as needed */
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search-box input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: calc(100% - 250px); /* Adjust width as needed */
+}
+
+.search-box input[type="date"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: calc(100% - 200px); /* Adjust width as needed */
+}
+
+
+.search-box .button-21 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%; /* Adjust width as needed */
+    top: 95%; /* Adjust the distance from the top of the image */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+footer .container-xxl123 {
+  position: relative;
+  margin-top:100rem;
+  background-color: burlywood;
+  position: sticky;
+  height:5rem
+ 
+}
+.text-center {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px; /* Adjust the padding as needed */
+   
+    }
+    
+
+html {
+  height: 100%;
+}
+
+
+
+@-webkit-keyframes animation-bg {
+0% {
+  background-position: 50% 100%;
+}
+100% {
+  background-position: 50% 0%;
+}
+}
+@keyframes animation-bg {
+0% {
+  background-position: 50% 100%;
+}
+100% {
+  background-position: 50% 0%;
+}
+}
+
+section
+{
+  margin-top:5rem;
+}
+
+.card 
+{
+margin-top:5%;
+position: relative;
+top: 80%;
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius:15px;
+border:none;
+  background-color:white;
+}
+
+
+.btn 
+{
+opacity:0;  
+position:absolute;
+left:50%;
+top: 110%;
+ transform: translate(-50%, -50%);
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0);
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius: 10px;
+padding:0.8rem 1.7rem;
+border:none;
+font-weight:bold;
+}
+
+.card:hover .btn
+{
+opacity:1;
+top: 100%;
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover
+{
+box-shadow: 0 4px 18px 0 rgba(0,0,0,0.7);
+
+}
+
+h5
+{
+position: absolute;
+left:50%;
+top: 50%;
+transform: translate(-50%, -50%);
+font-size: 2.7rem;
+opacity:0.3;
+text-shadow: 1px 1px 2px black;
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+  font-family: 'Leckerli One', cursive;
+}
+
+.card:hover h5
+{
+opacity:1;
+  font-size: 3rem;
+}
+
+.btn:hover 
+{
+color:white;
+border:none;
+}
+
+
+.card img
+{
+filter:blur(0px);
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius:15px;
+}
+
+.card:hover img
+{
+filter:blur(3px);
+}
+
+/* review part */
+/* style the maincontainer class with all child div's of class .front */
+
+.container129 {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #05162f,
+    #051327,
+    #040f1f,
+    #010a18
+  );
+
+  background-size: 800%;
+  animation: animateClr 1s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
+  margin-top: 15rem;
+  font-family: "Poppins", sans-serif;
+}
+#fname,#lname,#phone,#emails,#msg
+ {
+  border: none;
+  border-bottom: 2px solid rgb(128, 126, 126);
+  background: transparent;
+  outline: none;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 1rem 0.4rem;
+}
+.aside {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #002350,
+    #002d69,
+    #003684,
+    #01409f
+  );
+  animation: animateClr 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
+  background-size: 400%;
+}
+
+@keyframes animateClr {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* CSS */
+.button-273 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-273:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-273:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-273:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
+
+/* CSS */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+  
